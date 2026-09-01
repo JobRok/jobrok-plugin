@@ -1,0 +1,38 @@
+{
+  "name": "jobrok",
+  "version": "0.1.1",
+  "description": "Bring your personalised JobRok career, job, and application context into AI conversations.",
+  "author": {
+    "name": "JobRok",
+    "url": "https://jobrok.com"
+  },
+  "homepage": "https://plugin.jobrok.com",
+  "repository": "https://github.com/JobRok/jobrok-plugin",
+  "keywords": [
+    "career",
+    "jobs",
+    "applications",
+    "coaching",
+    "mcp"
+  ],
+  "interface": {
+    "displayName": "JobRok",
+    "shortDescription": "Personalised career and job context from JobRok.",
+    "longDescription": "Use your authorised JobRok CV, career goals, ideal-job preferences, private context, Coach memory, jobs, evaluations, and applications in AI conversations.",
+    "developerName": "JobRok",
+    "websiteURL": "https://plugin.jobrok.com",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg",
+    "brandColor": "#6940B6",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "I'm planning to apply for the OpenAI FDE role. What do you think?",
+      "Review my current shortlist and tell me where to focus.",
+      "Use my JobRok context to help with my career strategy."
+    ]
+  },
+  "apps": "./.app.json"
+}
